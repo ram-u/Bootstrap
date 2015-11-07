@@ -10,6 +10,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+.home-button {
+    width: 5%;
+    height: 0;
+    padding-bottom: 5%;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #92539f;
+}
+.home-button:hover {
+    background: #639bcf;
+}
+.home-button img {
+    display: block;
+    width: 75%;
+    padding: 10%;
+    height: auto;
+}
+
 a {
   background-color: transparent;
 }
